@@ -3,7 +3,7 @@
     <strong>Post:</strong>
     <%= comment.post_id %>
   </p>
-
+Posted <%= time_age_in_words(comment.created_at) %>
   <p>
     <strong>Body:</strong>
     <%= comment.body %>
